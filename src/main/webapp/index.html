@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html data-ng-app="barson">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+    <title>calculator</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="/app/calculator/calculator.css" rel="stylesheet"/>
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a href="#" onclick="window.location.reload()" class="navbar-brand"><span class="brand-title">a simple calculator.</span></a>
+
+        </div>
+       <div> <p id="signature" class="navbar-text navbar-right">Alex Barson 2015</p> </div>
+    </nav>
+
+    <div data-ng-include="'app/calculator/calculator.html'"></div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+
+<script src="/app/app.module.js"></script>
+<script src="/app/calculator/calculator.module.js"></script>
+<script src="/app/calculator/calculator.js"></script>
+
+
+</body>
+</html>

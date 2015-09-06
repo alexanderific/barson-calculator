@@ -1,0 +1,33 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+group 'com.barson'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.4.RELEASE")
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web") {
+        exclude module: "spring-boot-starter-tomcat"
+    }
+    compile("org.springframework.boot:spring-boot-starter-jetty")
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+
+    compile("org.codehaus.groovy:groovy-all:2.4.3")
+    testCompile("junit:junit")
+}

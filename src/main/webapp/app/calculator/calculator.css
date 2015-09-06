@@ -1,0 +1,52 @@
+/**
+    calculator app-specific styles. Should be used in concert with bootstrap.css
+    @author Alex Barson
+*/
+
+#calculatorSection {
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 2.5%;
+    padding-bottom: 3.5%;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+.calcButton {
+    width: 2.5em;
+    margin: .15em;
+}
+
+.bigCalcButton {
+    margin: .15em;
+    width: 5.5em;
+}
+
+#calculatorSection.mainbar {
+    text-align: center;
+}
+
+.inputWindow {
+    text-align: center;
+}
+
+#calcInputWindow {
+    display: inline;
+    text-align: right;
+    width: 12em;
+}
+
+#calcHistory {
+    text-align: right;
+    width: 12em;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+#calcHistoryWindow {
+    text-align: center;
+}
+
+#signature {
+    margin-right:1%;
+}
