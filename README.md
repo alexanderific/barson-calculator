@@ -22,7 +22,7 @@ To execute a prebuilt artifact:
     * https://github.com/alexanderific/barson-calculator/releases/tag/1.0-SNAPSHOT
 * Download the JAR file and execute it using the `java -jar` command.
     * `java -jar barson-calculator-1.0-SNAPSHOT.jar`
-* sprint-boot will initialize and begin hosting the app immediately. You will be able to navigate to the app at a localhost/ip address specified at the port(s) listed in the spring-boot console (`Jetty started on port(s) ____`)
+* spring-boot will initialize and begin hosting the app immediately. You will be able to navigate to the app at a localhost/ip address specified at the port(s) listed in the spring-boot console (`Jetty started on port(s) ____`)
      * This will likely be [http://localhost:8080/](http://localhost:8080/)
 * And that's it. The application should be initialized and the calculator should be online.
 
