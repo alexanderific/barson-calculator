@@ -25,7 +25,7 @@
         calc.inputWindow = "";
         calc.history = "";
         calc.midOperation = false;
-        calc.newOperation = true;
+        calc.newOperation = false;
         calc.operationCompleted = false;
         calc.leftOperand = 0;
         calc.rightOperand = 0;
